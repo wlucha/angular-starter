@@ -1,4 +1,7 @@
 # Angular 9 + Material + Transloco + Jest + Compodoc
+
+![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)
+
 Angular 9 Starter project with Material, Transloco, Jest &amp; Compodoc  
 by [@wlucha](https://github.com/wlucha)
 
