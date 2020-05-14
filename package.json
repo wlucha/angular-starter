@@ -1,0 +1,60 @@
+{
+  "name": "angular-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "build:prod": "ng build --prod",
+    "build:prod:stats": "ng build --prod --stats-json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --runInBand",
+    "test:coverage": "jest --coverage",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "compodoc": "npx compodoc -p tsconfig.app.json",
+    "changelog": "changelog",
+    "analyze": "webpack-bundle-analyzer dist/angular-starter/stats-es2015.json"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~9.1.7",
+    "@angular/cdk": "^9.2.3",
+    "@angular/common": "~9.1.7",
+    "@angular/compiler": "~9.1.7",
+    "@angular/core": "~9.1.7",
+    "@angular/forms": "~9.1.7",
+    "@angular/material": "^9.2.3",
+    "@angular/platform-browser": "~9.1.7",
+    "@angular/platform-browser-dynamic": "~9.1.7",
+    "@angular/router": "~9.1.7",
+    "@ngneat/transloco": "^2.17.1",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.901.6",
+    "@angular/cli": "~9.1.6",
+    "@angular/compiler-cli": "~9.1.7",
+    "@compodoc/compodoc": "^1.1.11",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^5.1.2",
+    "generate-changelog": "^1.8.0",
+    "jest": "^25.1.0",
+    "jest-preset-angular": "^8.2.0",
+    "protractor": "~5.4.3",
+    "ts-node": "~8.3.0",
+    "tslint": "~6.1.0",
+    "typescript": "~3.8.3",
+    "webpack-bundle-analyzer": "^3.7.0"
+  },
+  "jest": {
+    "preset": "jest-preset-angular",
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupJest.ts"
+    ]
+  }
+}
