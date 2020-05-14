@@ -1,0 +1,19 @@
+#.travis.yml
+dist: trusty
+sudo: required
+language: node_js
+
+node_js:
+  - 10.15.3
+
+branches:
+  only:
+    - master
+
+before_script:
+  - npm install
+
+script:
+  - npm run lint
+  - npm run test
+  - npm run build
