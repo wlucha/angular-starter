@@ -45,6 +45,7 @@
     "generate-changelog": "^1.8.0",
     "jest": "^25.1.0",
     "jest-preset-angular": "^8.2.0",
+    "jest-sonar-reporter": "^2.0.0",
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
@@ -55,6 +56,12 @@
     "preset": "jest-preset-angular",
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupJest.ts"
-    ]
+    ],
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "jestSonar": {
+    "reportPath": "reports",
+    "reportFile": "test-report.xml",
+    "indent": 4
   }
 }
