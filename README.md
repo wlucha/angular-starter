@@ -2,6 +2,9 @@
 Angular 9 Starter project with Material, Transloco, Jest &amp; Compodoc  
 by [@wlucha](https://github.com/wlucha)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
 ## Table of Contents
 - [Demo](https://stackblitz.com/github/wlucha/angular-starter)
 
