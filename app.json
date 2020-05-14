@@ -1,0 +1,6 @@
+{
+  "name": "Angular 9 Starter",
+  "description": "Angular 9 Starter project with Material, Transloco, Jest & Compodoc",
+  "repository": "https://github.com/wlucha/angular-starter",
+  "keywords": ["angular", "jest", "compodoc", "transloco"]
+}
