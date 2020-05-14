@@ -15,7 +15,8 @@
     "e2e": "ng e2e",
     "compodoc": "npx compodoc -p tsconfig.app.json",
     "changelog": "changelog",
-    "analyze": "webpack-bundle-analyzer dist/angular-starter/stats-es2015.json"
+    "analyze": "webpack-bundle-analyzer dist/angular-starter/stats-es2015.json",
+    "sonar": "sonar-scanner"
   },
   "private": true,
   "dependencies": {
