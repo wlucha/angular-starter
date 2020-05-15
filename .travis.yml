@@ -16,6 +16,8 @@ before_script:
 addons:
   sonarcloud:
     organization: "wlucha"
+    token:
+      secure: $SONAR_TOKEN
 
 script:
   - npm run lint
