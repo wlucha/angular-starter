@@ -10,13 +10,6 @@ branches:
   only:
     - master
 
-addons:
-  sonarcloud:
-    organization: "wlucha"
-    token:
-      secure: 4e257070ac37457593f55864bbdb6de556d32d8a"
-
-
 install:
   - npm install
 
@@ -24,4 +17,3 @@ script:
   - npm run lint
   - npm run test
   - npm run build
-  - sonar-scanner
