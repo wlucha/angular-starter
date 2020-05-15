@@ -11,5 +11,6 @@ module.exports = {
   },
   setupFilesAfterEnv: [
     "<rootDir>/src/setupJest.ts"
-  ]
+  ],
+  reporters: [ "default", "jest-junit" ]
 }
