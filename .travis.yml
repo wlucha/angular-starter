@@ -13,6 +13,10 @@ branches:
 before_script:
   - npm install
 
+addons:
+  sonarcloud:
+    organization: "wlucha"
+
 script:
   - npm run lint
   - npm run test
