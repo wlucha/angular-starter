@@ -5,8 +5,10 @@ by [@wlucha](https://github.com/wlucha)
 
 [![Build](https://travis-ci.org/wlucha/angular-starter.svg?branch=master&status=created)](https://travis-ci.org/github/wlucha/angular-starter)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
-# [![dependency Status](https://david-dm.org/wlucha/angular-starter.svg)](https://david-dm.org/wlucha/angular-starter#info=dependencies)
-# [![devDependency Status](https://david-dm.org/wlucha/angular-starter/dev-status.svg)](https://david-dm.org/wlucha/angular-starter#info=devDependencies)
+<!---
+[![dependency Status](https://david-dm.org/wlucha/angular-starter.svg)](https://david-dm.org/wlucha/angular-starter#info=dependencies)
+[![devDependency Status](https://david-dm.org/wlucha/angular-starter/dev-status.svg)](https://david-dm.org/wlucha/angular-starter#info=devDependencies)
+-->
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
