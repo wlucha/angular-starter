@@ -17,6 +17,7 @@ by [@wlucha](https://github.com/wlucha)
 ✅ Jest Unit Testing  
 ✅ Internationalization with Transloco  
 ✅ Auto documentation with Compodoc  
+✅ Analyse your project with webpack-bundle-analyzer  
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
