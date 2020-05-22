@@ -12,7 +12,7 @@ by [@wlucha](https://github.com/wlucha)
 -->
   
 ## Features    
-✅ Angular 9+ 
+✅ Angular 9+   
 ✅ Angular Material Theming  
 ✅ Jest Unit Testing  
 ✅ Internationalization with Transloco  
