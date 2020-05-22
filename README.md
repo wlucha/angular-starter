@@ -9,6 +9,13 @@ by [@wlucha](https://github.com/wlucha)
 [![dependency Status](https://david-dm.org/wlucha/angular-starter.svg)](https://david-dm.org/wlucha/angular-starter#info=dependencies)
 [![devDependency Status](https://david-dm.org/wlucha/angular-starter/dev-status.svg)](https://david-dm.org/wlucha/angular-starter#info=devDependencies)
 -->
+  
+## Features    
+✅ Angular 9 latest  
+✅ Angular Material Theming  
+✅ Jest Unit Testing  
+✅ Internationalization with Transloco  
+✅ Auto documentation with Compodoc  
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
