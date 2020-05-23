@@ -54,7 +54,7 @@ docker run -p 3000:80 angular-starter
 ```
 
 ## Docker Hub
-https://hub.docker.com/repository/docker/wlucha/angular-starter
+https://hub.docker.com/r/wlucha/angular-starter
 
 ## Commands
 - `npm run start`             - start the app
