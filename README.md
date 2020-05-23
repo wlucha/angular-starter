@@ -3,8 +3,9 @@
 Angular 9 Starter with Material, Transloco, Jest &amp; Compodoc  
 by [@wlucha](https://github.com/wlucha)
 
+![Angular9](https://img.shields.io/badge/Angular-9-brightgreen)
 [![Build](https://api.travis-ci.org/wlucha/angular-starter.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-starter)
-[![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)]()
+[![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
 [![Docker Pulls](https://img.shields.io/docker/pulls/wlucha/angular-starter)](https://hub.docker.com/repository/docker/wlucha/angular-starter)
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wlucha/angular-starter)](https://hub.docker.com/repository/docker/wlucha/angular-starter)
