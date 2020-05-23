@@ -26,8 +26,8 @@ by [@wlucha](https://github.com/wlucha)
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Table of Contents
-- [Demo](https://stackblitz.com/github/wlucha/angular-starter)
+## Stackblitz
+- [StackBlitz Demo](https://stackblitz.com/github/wlucha/angular-starter)
 
 ## Install / Development
 
@@ -52,6 +52,9 @@ docker build . -t angular-starter
 # Run Docker Container
 docker run -p 3000:80 angular-starter
 ```
+
+## Docker Hub
+https://hub.docker.com/repository/docker/wlucha/angular-starter
 
 ## Commands
 - `npm run start`             - start the app
