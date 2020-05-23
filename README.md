@@ -1,5 +1,5 @@
 [![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)  
-# Angular 9 + Material + Transloco + Jest + Compodoc
+# Angular 9 + Material + Transloco + Jest + Compodoc + Docker
 Angular 9 Starter project with Material, Transloco, Jest &amp; Compodoc  
 by [@wlucha](https://github.com/wlucha)
 
@@ -18,6 +18,7 @@ by [@wlucha](https://github.com/wlucha)
 ✅ Internationalization with Transloco  
 ✅ Auto documentation with Compodoc  
 ✅ Analyse your project with webpack-bundle-analyzer  
+✅ Docker Support
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
@@ -38,6 +39,15 @@ npm install
 npm run start
 
 # Open in browser: http://localhost:4200
+```
+
+## Docker Deployment
+```bash
+# Build Docker image
+docker build . -t angular-starter  
+
+# Run Docker Container
+docker run -p 3000:80 angular-starter
 ```
 
 ## Commands
