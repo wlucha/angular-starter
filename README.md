@@ -1,6 +1,6 @@
 [![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)  
 # Angular 9 + Material + Transloco + Jest + Compodoc + Docker
-Angular 9 Starter project with Material, Transloco, Jest &amp; Compodoc  
+Angular 9 Starter with Material, Transloco, Jest &amp; Compodoc  
 by [@wlucha](https://github.com/wlucha)
 
 [![Build](https://api.travis-ci.org/wlucha/angular-starter.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-starter)
