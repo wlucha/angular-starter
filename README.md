@@ -34,14 +34,15 @@ by [@wlucha](https://github.com/wlucha)
 ## Install / Development
 
 ```bash
-git clone https://github.com/wlucha/angular-starter
-cd angular-starter
+# Clone the project
+$ git clone https://github.com/wlucha/angular-starter
+$ cd angular-starter
 
 # Install dependencies
-npm install
+$ npm install
 
 # Start server
-npm run start
+$ npm run start
 
 # Open in browser: http://localhost:4200
 ```
@@ -49,10 +50,10 @@ npm run start
 ## Docker Deployment
 ```bash
 # Build Docker image
-docker build . -t angular-starter  
+$ docker build . -t angular-starter  
 
 # Run Docker Container
-docker run -p 3000:80 angular-starter
+$ docker run -p 3000:80 angular-starter
 ```
 
 ## Docker Hub
