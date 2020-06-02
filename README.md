@@ -29,7 +29,7 @@ by [@wlucha](https://github.com/wlucha)
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Demo
-- [StackBlitz Demo](https://stackblitz.com/github/wlucha/angular-starter)
+[![StackBlitz Demo](https://user-images.githubusercontent.com/7531596/83507657-2424e180-a4c9-11ea-8e4f-b3f8e7d6b4c5.png)](https://stackblitz.com/github/wlucha/angular-starter)
 
 ## Install / Development
 
