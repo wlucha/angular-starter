@@ -18,7 +18,7 @@ by [@wlucha](https://github.com/wlucha)
   
 ## Features    
 ✅ Angular 9+   
-✅ Angular Material Theming  
+✅ Material Theming  
 ✅ Jest Unit Testing  
 ✅ Internationalization with Transloco  
 ✅ Auto documentation with Compodoc  
