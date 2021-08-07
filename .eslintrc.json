@@ -15,7 +15,8 @@
       },
       "extends": [
         "plugin:@angular-eslint/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
       ],
       "rules": {
         "@angular-eslint/component-class-suffix": [
