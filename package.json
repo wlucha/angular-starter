@@ -16,7 +16,8 @@
     "compodoc": "npx compodoc -p tsconfig.app.json",
     "changelog": "changelog",
     "analyze": "webpack-bundle-analyzer dist/angular-starter/stats-es2015.json",
-    "prettier": "prettier --write \"src/app/**/*.{js,json,css,scss,less,md,ts,html,component.html}\""
+    "prettier": "prettier --write \"src/app/**/*.{js,json,css,scss,less,md,ts,html,component.html}\"",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -44,6 +45,8 @@
     "@angular-eslint/template-parser": "^12.3.1",
     "@angular/cli": "~12.2.0",
     "@angular/compiler-cli": "~12.2.0",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "@compodoc/compodoc": "^1.1.14",
     "@types/jest": "^25.1.1",
     "@types/node": "^12.11.1",
@@ -57,6 +60,7 @@
     "eslint-plugin-jsdoc": "^36.0.6",
     "eslint-plugin-prefer-arrow": "^1.2.3",
     "generate-changelog": "^1.8.0",
+    "husky": "^7.0.1",
     "jest": "^25.1.0",
     "jest-junit": "^10.0.0",
     "jest-preset-angular": "^8.2.0",
@@ -70,6 +74,11 @@
     "preset": "jest-preset-angular",
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupJest.ts"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,json,css,scss,less,md,ts,html,component.html}": [
+      "prettier --write"
     ]
   }
 }
