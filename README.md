@@ -1,7 +1,7 @@
 [![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)  
 # Angular 12 + ESLint + Material + Transloco + Jest + Compodoc + Docker
-Angular 12 Starter with ESLint, Material, Transloco, Jest &amp; Compodoc  
-by [@wlucha](https://github.com/wlucha)
+Angular 12 Starter with Material, Transloco, Jest &amp; Compodoc  
+
 
 ![Angular12](https://img.shields.io/badge/Angular-12-brightgreen)
 [![Build](https://api.travis-ci.org/wlucha/angular-starter.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-starter)
@@ -17,13 +17,15 @@ by [@wlucha](https://github.com/wlucha)
 -->
   
 ## Features    
-✅ Angular 12   
-✅ Material Theming  
-✅ Jest Unit Testing  
-✅ Internationalization with Transloco  
-✅ Auto documentation with Compodoc  
-✅ Analyse your project with webpack-bundle-analyzer  
-✅ Docker Support
+✅ [Angular 12](https://angular.io/)     
+✅ [Angular Material](https://material.angular.io/)    
+✅ [Jest Unit Testing](https://jestjs.io/)  
+✅ Internationalization with [Transloco](https://github.com/ngneat/transloco)  
+✅ Auto documentation with [Compodoc](https://compodoc.app/)    
+✅ Analyse your project with [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)  
+✅ [Docker](https://www.docker.com/)  
+✅ [ESLint](https://eslint.org/)  
+✅ [Prettier](https://prettier.io/)
 
 ## Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
@@ -69,6 +71,7 @@ https://hub.docker.com/r/wlucha/angular-starter
 - `npm run analyse`           - analyse bundle with [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 - `npm run compodoc`          - generate [compodoc](https://github.com/compodoc/compodoc) documentation
 - `npm run changelog`         - generate changelog
+- `npm run prettier`          - format the whole project
 
 ## License
 MIT License
