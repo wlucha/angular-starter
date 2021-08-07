@@ -1,5 +1,5 @@
 [![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)  
-# Angular 12 + Material + Transloco + Jest + Compodoc + Docker
+# Angular 12 + ESLint + Material + Transloco + Jest + Compodoc + Docker
 Angular 12 Starter with Material, Transloco, Jest &amp; Compodoc  
 by [@wlucha](https://github.com/wlucha)
 
@@ -61,6 +61,7 @@ https://hub.docker.com/r/wlucha/angular-starter
 
 ## Commands
 - `npm run start`             - start the app
+- `npm run lint`              - lint the project
 - `npm run test`              - run unit tests
 - `npm run build`             - build the project
 - `npm run build:prod`        - build the project in production mode
@@ -72,7 +73,7 @@ https://hub.docker.com/r/wlucha/angular-starter
 ## License
 MIT License
 
-Copyright (c) 2020 Wilfried Lucha
+Copyright (c) 2021 Wilfried Lucha
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
