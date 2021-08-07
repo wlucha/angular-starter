@@ -1,9 +1,9 @@
 [![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)  
-# Angular 10 + Material + Transloco + Jest + Compodoc + Docker
-Angular 10 Starter with Material, Transloco, Jest &amp; Compodoc  
+# Angular 12 + Material + Transloco + Jest + Compodoc + Docker
+Angular 12 Starter with Material, Transloco, Jest &amp; Compodoc  
 by [@wlucha](https://github.com/wlucha)
 
-![Angular10](https://img.shields.io/badge/Angular-10-brightgreen)
+![Angular12](https://img.shields.io/badge/Angular-12-brightgreen)
 [![Build](https://api.travis-ci.org/wlucha/angular-starter.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-starter)
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
@@ -17,7 +17,7 @@ by [@wlucha](https://github.com/wlucha)
 -->
   
 ## Features    
-✅ Angular 10+   
+✅ Angular 12   
 ✅ Material Theming  
 ✅ Jest Unit Testing  
 ✅ Internationalization with Transloco  
