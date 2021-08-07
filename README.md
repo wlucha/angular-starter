@@ -1,6 +1,6 @@
 [![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)  
 # Angular 12 + ESLint + Material + Transloco + Jest + Compodoc + Docker
-Angular 12 Starter with Material, Transloco, Jest &amp; Compodoc  
+Angular 12 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESLint & Prettier
 
 
 ![Angular12](https://img.shields.io/badge/Angular-12-brightgreen)
