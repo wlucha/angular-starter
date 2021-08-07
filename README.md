@@ -1,7 +1,8 @@
-[![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)  
-# Angular 12 + ESLint + Material + Transloco + Jest + Compodoc + Docker
-Angular 12 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESLint & Prettier
+[![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)
 
+# Angular 12 + ESLint + Material + Transloco + Jest + Compodoc + Docker
+
+Angular 12 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESLint & Prettier
 
 ![Angular12](https://img.shields.io/badge/Angular-12-brightgreen)
 [![Build](https://api.travis-ci.org/wlucha/angular-starter.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-starter)
@@ -15,22 +16,26 @@ Angular 12 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESL
 [![dependency Status](https://david-dm.org/wlucha/angular-starter.svg)](https://david-dm.org/wlucha/angular-starter#info=dependencies)
 [![devDependency Status](https://david-dm.org/wlucha/angular-starter/dev-status.svg)](https://david-dm.org/wlucha/angular-starter#info=devDependencies)
 -->
-  
-## Features    
-✅ [Angular 12](https://angular.io/)     
-✅ [Angular Material](https://material.angular.io/)    
+
+## Features
+
+✅ [Angular 12](https://angular.io/)  
+✅ [Angular Material](https://material.angular.io/)  
 ✅ [Jest Unit Testing](https://jestjs.io/)  
 ✅ Internationalization with [Transloco](https://github.com/ngneat/transloco)  
-✅ Auto documentation with [Compodoc](https://compodoc.app/)    
+✅ Auto documentation with [Compodoc](https://compodoc.app/)  
 ✅ Analyse your project with [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)  
 ✅ [Docker](https://www.docker.com/)  
 ✅ [ESLint](https://eslint.org/)  
-✅ [Prettier](https://prettier.io/)
+✅ [Prettier](https://prettier.io/)  
+✅ [Commit Linting](https://github.com/conventional-changelog/commitlint)
 
 ## Deploy
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Demo
+
 [![StackBlitz Demo](https://user-images.githubusercontent.com/7531596/83507657-2424e180-a4c9-11ea-8e4f-b3f8e7d6b4c5.png)](https://stackblitz.com/github/wlucha/angular-starter)
 
 ## Install / Development
@@ -50,30 +55,34 @@ $ npm run start
 ```
 
 ## Docker Deployment
+
 ```bash
 # Build Docker image
-$ docker build . -t angular-starter  
+$ docker build . -t angular-starter
 
 # Run Docker Container
 $ docker run -p 3000:80 angular-starter
 ```
 
 ## Docker Hub
+
 https://hub.docker.com/r/wlucha/angular-starter
 
 ## Commands
-- `npm run start`             - start the app
-- `npm run lint`              - lint the project
-- `npm run test`              - run unit tests
-- `npm run build`             - build the project
-- `npm run build:prod`        - build the project in production mode
-- `npm run build:prod:stats`  - build the project in product mode with stats
-- `npm run analyse`           - analyse bundle with [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
-- `npm run compodoc`          - generate [compodoc](https://github.com/compodoc/compodoc) documentation
-- `npm run changelog`         - generate changelog
-- `npm run prettier`          - format the whole project
+
+- `npm run start` - start the app
+- `npm run lint` - lint the project
+- `npm run test` - run unit tests
+- `npm run build` - build the project
+- `npm run build:prod` - build the project in production mode
+- `npm run build:prod:stats` - build the project in product mode with stats
+- `npm run analyse` - analyse bundle with [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
+- `npm run compodoc` - generate [compodoc](https://github.com/compodoc/compodoc) documentation
+- `npm run changelog` - generate changelog
+- `npm run prettier` - format the whole project
 
 ## License
+
 MIT License
 
 Copyright (c) 2021 Wilfried Lucha
