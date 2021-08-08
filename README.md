@@ -1,4 +1,5 @@
-[![default](https://user-images.githubusercontent.com/7531596/81993396-d5142b00-9645-11ea-995f-98342b7d5c8f.png)](https://github.com/wlucha/angular-starter)
+![81993396-d5142b00-9645-11ea-995f-98342b7d5c8f](https://user-images.githubusercontent.com/7531596/128626297-df86020b-1cdc-43b5-a692-6c4c45534ec1.png)
+
 
 # Angular 12 + ESLint + Material + Transloco + Jest + Compodoc + Docker + Prettier
 
