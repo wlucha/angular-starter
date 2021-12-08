@@ -12,7 +12,7 @@
     "test:ci": "jest --runInBand",
     "test:coverage": "jest --coverage",
     "lint": "ng lint",
-    "e2e": "ng e2e",
+    "e2e": "testcafe chrome ./e2e/",
     "compodoc": "npx compodoc -p tsconfig.app.json",
     "changelog": "changelog",
     "analyze": "webpack-bundle-analyzer dist/angular-starter/stats-es2015.json",
@@ -65,7 +65,8 @@
     "jest-junit": "^10.0.0",
     "jest-preset-angular": "^8.2.0",
     "prettier": "2.3.2",
-    "protractor": "~7.0.0",
+    "testcafe": "^1.17.1",
+    "testcafe-reporter-html": "^1.4.6",
     "ts-node": "~8.3.0",
     "typescript": "~4.4.4",
     "webpack-bundle-analyzer": "^3.7.0"

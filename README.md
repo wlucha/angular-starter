@@ -20,7 +20,8 @@ Angular 13 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESL
 
 ✅ [Angular 13](https://angular.io/)  
 ✅ [Angular Material](https://material.angular.io/)  
-✅ [Jest Unit Testing](https://jestjs.io/)  
+✅ Unit Testing with [Jest](https://jestjs.io/)  
+✅ End-to-End Testing with [TestCafé](https://testcafe.io/)  
 ✅ Internationalization with [Transloco](https://github.com/ngneat/transloco)  
 ✅ Auto documentation with [Compodoc](https://compodoc.app/)  
 ✅ Analyse your project with [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)  
