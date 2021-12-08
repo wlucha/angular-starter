@@ -1,11 +1,10 @@
 ![81993396-d5142b00-9645-11ea-995f-98342b7d5c8f](https://user-images.githubusercontent.com/7531596/128626297-df86020b-1cdc-43b5-a692-6c4c45534ec1.png)
 
+# Angular 13 + ESLint + Material + Transloco + Jest + Compodoc + Docker + Prettier
 
-# Angular 12 + ESLint + Material + Transloco + Jest + Compodoc + Docker + Prettier
+Angular 13 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESLint & Prettier
 
-Angular 12 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESLint & Prettier
-
-![Angular12](https://img.shields.io/badge/Angular-12-brightgreen)
+![Angular13](https://img.shields.io/badge/Angular-13-brightgreen)
 [![Build](https://api.travis-ci.org/wlucha/angular-starter.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-starter)
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
@@ -20,7 +19,7 @@ Angular 12 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESL
 
 ## Features
 
-✅ [Angular 12](https://angular.io/)  
+✅ [Angular 13](https://angular.io/)  
 ✅ [Angular Material](https://material.angular.io/)  
 ✅ [Jest Unit Testing](https://jestjs.io/)  
 ✅ Internationalization with [Transloco](https://github.com/ngneat/transloco)  
