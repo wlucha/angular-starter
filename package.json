@@ -18,7 +18,7 @@
     "analyze": "webpack-bundle-analyzer dist/angular-starter/stats-es2015.json",
     "prettier": "prettier --write \"src/app/**/*.{js,json,css,scss,less,md,ts,html,component.html}\"",
     "prepare": "husky install",
-    "audit": "npm audit --audit-level=moderate   "
+    "audit": "auditjs ossi"
   },
   "private": true,
   "dependencies": {
@@ -55,6 +55,7 @@
     "@typescript-eslint/eslint-plugin": "5.8.0",
     "@typescript-eslint/eslint-plugin-tslint": "5.8.0",
     "@typescript-eslint/parser": "5.8.0",
+    "auditjs": "^4.0.33",
     "codelyzer": "^6.0.0",
     "eslint": "^8.2.0",
     "eslint-config-prettier": "^8.3.0",
