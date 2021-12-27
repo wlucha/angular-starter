@@ -28,8 +28,8 @@ Angular 13 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESL
 ✅ [Docker](https://www.docker.com/)  
 ✅ [ESLint](https://eslint.org/)  
 ✅ [Prettier](https://prettier.io/)  
-✅ [Commit Linting](https://github.com/conventional-changelog/commitlint)
-✅ [Audit] Audit this application using Sonatype OSS Index
+✅ [Commit Linting](https://github.com/conventional-changelog/commitlint)  
+✅ [AuditJS](https://www.npmjs.com/package/auditjs) Audit this application using Sonatype OSS Index
 
 ## Deploy
 
