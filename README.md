@@ -29,7 +29,8 @@ Angular 13 Starter with Material, Transloco, Jest, Compodoc, Docker Support, ESL
 ✅ [ESLint](https://eslint.org/)  
 ✅ [Prettier](https://prettier.io/)  
 ✅ [Commit Linting](https://github.com/conventional-changelog/commitlint)  
-✅ [AuditJS](https://www.npmjs.com/package/auditjs) Audit this application using Sonatype OSS Index
+✅ [AuditJS](https://www.npmjs.com/package/auditjs) Audit this application using Sonatype OSS Index  
+✅ Auto-generate a CHANGELOG with [auto-changelog](https://github.com/cookpete/auto-changelog)
 
 ## Deploy
 
@@ -79,7 +80,7 @@ https://hub.docker.com/r/wlucha/angular-starter
 - `npm run build:prod:stats` - Build the project in product mode with stats
 - `npm run analyse` - Analyse bundle with [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 - `npm run compodoc` - Generate [compodoc](https://github.com/compodoc/compodoc) documentation
-- `npm run changelog` - Generate changelog
+- `npm run version` - Generate changelog
 - `npm run prettier` - Format the whole project
 - `npm run audit` - Audit this application using Sonatype OSS Index
 
