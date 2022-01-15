@@ -2,7 +2,7 @@
   "name": "angular-starter",
   "version": "0.0.1",
   "description": "The Angular starter / boilerplate project to start a new enterprise project",
-  "author: "Wilfried Lucha",
+  "author": "Wilfried Lucha <wilfried@lucha.at>",
   "homepage": "https://lucha.at",
   "license": "MIT",
   "contributors": [
