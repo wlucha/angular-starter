@@ -1,6 +1,35 @@
 {
   "name": "angular-starter",
   "version": "0.0.1",
+  "description": "The Angular starter / boilerplate project to start a new enterprise project",
+  "author: "Wilfried Lucha",
+  "homepage": "https://lucha.at",
+  "license": "MIT",
+  "contributors": [
+    "Wilfried Lucha <wilfried@lucha.at>"
+  ],
+  "keywords": [
+    "angular",
+    "angular 13",
+    "angular-starter",
+    "angular starter",
+    "angular-boilerplate",
+    "angular boilerplate",
+    "angular-template",
+    "angular template",
+    "jest",
+    "transloco",
+    "prettier",
+    "testcafe",
+    "compodoc"
+    "docker",
+    "eslint"
+  ],
+  "repository": "https://github.com/wlucha/angular-starter.git",
+  "bugs": {
+    "url": "https://github.com/wlucha/angular-starter/issues"
+  },
+  "readme": "https://github.com/wlucha/angular-starter/blob/master/README.md",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,7 +49,7 @@
     "audit": "auditjs ossi",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^13.1.1",
     "@angular/cdk": "^13.1.1",
