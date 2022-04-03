@@ -8,6 +8,7 @@
 ✅ End-to-End Testing with [TestCafé](https://testcafe.io/)  
 ✅ Internationalization with [Transloco](https://github.com/ngneat/transloco)  
 ✅ Auto documentation with [Compodoc](https://compodoc.app/)  
+✅ Provide component examples with [Storybook](https://storybook.js.org/)
 ✅ Analyse your project with [source-map-explorer](https://www.npmjs.com/package/source-map-explorer)  
 ✅ [Docker](https://www.docker.com/)  
 ✅ [ESLint](https://eslint.org/)  
