@@ -8,7 +8,7 @@
 ✅ End-to-End Testing with [TestCafé](https://testcafe.io/)  
 ✅ Internationalization with [Transloco](https://github.com/ngneat/transloco)  
 ✅ Auto documentation with [Compodoc](https://compodoc.app/)  
-✅ Analyse your project with [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)  
+✅ Analyse your project with [source-map-explorer](https://www.npmjs.com/package/source-map-explorer)  
 ✅ [Docker](https://www.docker.com/)  
 ✅ [ESLint](https://eslint.org/)  
 ✅ [Prettier](https://prettier.io/)  
@@ -25,7 +25,6 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/wlucha/angular-starter)](https://hub.docker.com/repository/docker/wlucha/angular-starter)
 [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wlucha/angular-starter)](https://hub.docker.com/repository/docker/wlucha/angular-starter)
 [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/wlucha/angular-starter)
-
 
 ## Deploy
 
