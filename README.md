@@ -2,7 +2,7 @@
 
 > The Angular starter / boilerplate project to start a new enterprise project.
 
-✅ [Angular 14](https://angular.io/)  
+✅ [Angular 15](https://angular.io/)  
 ✅ [Angular Material](https://material.angular.io/)  
 ✅ Unit Testing with [Jest](https://jestjs.io/)  
 ✅ End-to-End Testing with [TestCafé](https://testcafe.io/)  
@@ -19,7 +19,7 @@
 
 <hr>
 
-![Angular14](https://img.shields.io/badge/Angular-14-brightgreen)
+![Angular15](https://img.shields.io/badge/Angular-15-brightgreen)
 [![Build](https://api.travis-ci.org/wlucha/angular-starter.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-starter)
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
