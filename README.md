@@ -83,7 +83,7 @@ https://hub.docker.com/r/wlucha/angular-starter
 
 MIT License
 
-Copyright (c) 2022 Wilfried Lucha
+Copyright (c) 2023 Wilfried Lucha
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
