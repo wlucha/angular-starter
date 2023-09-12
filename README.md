@@ -33,7 +33,7 @@
 
 ## Demo
 
-[![StackBlitz Demo](https://user-images.githubusercontent.com/7531596/83507657-2424e180-a4c9-11ea-8e4f-b3f8e7d6b4c5.png)](https://stackblitz.com/github/wlucha/angular-starter)
+[![StackBlitz Demo](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/wlucha/angular-starter)
 
 ## Install / Development
 
