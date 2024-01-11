@@ -2,7 +2,7 @@
 
 > The Angular starter / boilerplate project to start a new enterprise project.
 
-✅ [Angular 16](https://angular.io/)  
+✅ [Angular 17](https://angular.io/)  
 ✅ [Angular Material](https://material.angular.io/)  
 ✅ Unit Testing with [Jest](https://jestjs.io/)  
 ✅ End-to-End Testing with [TestCafé](https://testcafe.io/)  
