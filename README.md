@@ -19,7 +19,7 @@
 
 <hr>
 
-![Angular16](https://img.shields.io/badge/Angular-16-brightgreen)
+![Angular17](https://img.shields.io/badge/Angular-17-brightgreen)
 [![Build](https://api.travis-ci.org/wlucha/angular-starter.svg?branch=master)](https://travis-ci.org/github/wlucha/angular-starter)
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
@@ -83,7 +83,7 @@ https://hub.docker.com/r/wlucha/angular-starter
 
 MIT License
 
-Copyright (c) 2023 Wilfried Lucha
+Copyright (c) 2024 Wilfried Lucha
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
