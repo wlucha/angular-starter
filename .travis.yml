@@ -4,7 +4,7 @@ sudo: required
 language: node_js
 
 node_js:
-  - 10.15.3
+  - 18.18.0
 
 branches:
   only:
