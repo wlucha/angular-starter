@@ -31,6 +31,7 @@
           },
           "configurations": {
             "production": {
+              "optimization": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -61,14 +62,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-            "buildTarget": "angular-starter:build"
-          },
           "configurations": {
             "production": {
               "buildTarget": "angular-starter:build:production"
+            },
+            "development": {
+              "buildTarget": "angular-starter:build:development"
             }
-          }
+          },
+          "defaultConfiguration": "development"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
