@@ -20,7 +20,7 @@
     "jest",
     "transloco",
     "prettier",
-    "testcafe",
+    "cypress",
     "compodoc",
     "docker",
     "eslint",
@@ -42,7 +42,7 @@
     "test:ci": "jest --runInBand",
     "test:coverage": "jest --coverage",
     "lint": "ng lint",
-    "e2e": "testcafe chrome ./e2e/",
+    "e2e": "ng e2e",
     "compodoc": "npx compodoc -p tsconfig.app.json",
     "analyze": "source-map-explorer dist/angular-starter/**/*.js",
     "prettier": "prettier --write \"src/app/**/*.{js,json,css,scss,less,md,ts,html,component.html}\"",
@@ -51,7 +51,9 @@
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "storybook": "npm run docs:json && start-storybook -p 6006",
-    "build-storybook": "npm run docs:json && build-storybook"
+    "build-storybook": "npm run docs:json && build-storybook",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "private": false,
   "dependencies": {
@@ -83,6 +85,7 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@compodoc/compodoc": "^1.1.24",
+    "@cypress/schematic": "^2.5.1",
     "@storybook/addon-actions": "^7.6.18",
     "@storybook/addon-essentials": "^7.6.18",
     "@storybook/addon-interactions": "^7.6.18",
@@ -112,10 +115,9 @@
     "jest-preset-angular": "^14.0.3",
     "prettier": "^3.2.5",
     "source-map-explorer": "^2.5.3",
-    "testcafe": "^3.6.0",
-    "testcafe-reporter-html": "^1.4.6",
     "ts-node": "~10.9.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "cypress": "latest"
   },
   "lint-staged": {
     "*.{js,json,css,scss,less,md,ts,html,component.html}": [

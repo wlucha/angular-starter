@@ -5,7 +5,7 @@
 ✅ [Angular 17](https://angular.io/)  
 ✅ [Angular Material](https://material.angular.io/)  
 ✅ Unit Testing with [Jest](https://jestjs.io/)  
-✅ End-to-End Testing with [TestCafé](https://testcafe.io/)  
+✅ End-to-End Testing with [Cypress](https://www.cypress.io/)  
 ✅ Internationalization with [Transloco](https://github.com/ngneat/transloco)  
 ✅ Auto documentation with [Compodoc](https://compodoc.app/)  
 ✅ Provide component examples with [Storybook](https://storybook.js.org/)  
