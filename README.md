@@ -2,11 +2,11 @@
 
 > The Angular starter / boilerplate project to start a new enterprise project.
 
-✅ [Angular 17](https://angular.io/)  
+✅ [Angular 18](https://angular.dev/)  
 ✅ [Angular Material](https://material.angular.io/)  
 ✅ Unit Testing with [Jest](https://jestjs.io/)  
 ✅ End-to-End Testing with [Cypress](https://www.cypress.io/)  
-✅ Internationalization with [Transloco](https://github.com/ngneat/transloco)  
+✅ Internationalization with [Transloco](https://github.com/jsverse/transloco)  
 ✅ Auto documentation with [Compodoc](https://compodoc.app/)  
 ✅ Provide component examples with [Storybook](https://storybook.js.org/)  
 ✅ Analyse your project with [source-map-explorer](https://www.npmjs.com/package/source-map-explorer)  
@@ -19,7 +19,7 @@
 
 <hr>
 
-![Angular17](https://img.shields.io/badge/Angular-17-brightgreen)
+![Angular18](https://img.shields.io/badge/Angular-18-brightgreen)
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
 [![Docker Pulls](https://img.shields.io/docker/pulls/wlucha/angular-starter)](https://hub.docker.com/repository/docker/wlucha/angular-starter)

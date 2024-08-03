@@ -1,6 +1,3 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
 npx lint-staged --quiet ||
 (
     echo -e "\n❌ Prettier formatting failed!\n"
