@@ -77,6 +77,7 @@ https://hub.docker.com/r/wlucha/angular-starter
 - `npm run version` - Generate changelog
 - `npm run prettier` - Format the whole project
 - `npm run audit` - Audit this application using Sonatype OSS Index
+- `npm run storybook` - Run Storybook
 
 ## License
 
