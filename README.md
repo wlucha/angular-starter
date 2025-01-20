@@ -2,7 +2,7 @@
 
 > The Angular starter / boilerplate project to start a new enterprise project.
 
-✅ [Angular 18](https://angular.dev/)  
+✅ [Angular 19](https://angular.dev/)  
 ✅ [Angular Material](https://material.angular.io/)  
 ✅ Unit Testing with [Jest](https://jestjs.io/)  
 ✅ End-to-End Testing with [Cypress](https://www.cypress.io/)  
@@ -19,7 +19,7 @@
 
 <hr>
 
-![Angular18](https://img.shields.io/badge/Angular-18-brightgreen)
+![Angular19](https://img.shields.io/badge/Angular-19-brightgreen)
 [![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
 [![Docker Pulls](https://img.shields.io/docker/pulls/wlucha/angular-starter)](https://hub.docker.com/repository/docker/wlucha/angular-starter)
@@ -83,7 +83,7 @@ https://hub.docker.com/r/wlucha/angular-starter
 
 MIT License
 
-Copyright (c) 2024 Wilfried Lucha
+Copyright (c) 2025 Wilfried Lucha
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

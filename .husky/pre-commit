@@ -1,7 +1,0 @@
-npx lint-staged --quiet ||
-(
-    echo -e "\n❌ Prettier formatting failed!\n"
-    false;
-)
-
-echo -e "✅ Prettier formatting successful!"
