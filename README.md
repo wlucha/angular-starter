@@ -3,13 +3,9 @@
 **Kickstart your next enterprise-grade Angular project with this robust, feature-rich starter template.**  
 Designed to save you time and effort, this boilerplate provides everything you need to build scalable, maintainable, and high-quality Angular applications.
 
----
-
 ## Why Choose This Starter? 🌟
 
 This project is more than just a boilerplate – it's a **production-ready foundation** packed with modern tools and best practices. Whether you're building a small app or a large-scale enterprise solution, this starter has you covered.
-
----
 
 ## Features 🛠️
 
@@ -26,7 +22,6 @@ This project is more than just a boilerplate – it's a **production-ready found
 ✅ **Security Audits with AuditJS** – Keep your dependencies secure.  
 ✅ **Auto-Generated CHANGELOG** – Track changes effortlessly with `auto-changelog`.
 
----
 
 ## Quick Start 🚀
 
@@ -60,7 +55,6 @@ docker run -p 3000:80 angular-starter
 - **Live Demo**: [Check it out on StackBlitz](https://stackblitz.com/github/wlucha/angular-starter)  
 - **Deploy to Heroku**: [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
----
 
 ## Commands Overview 📜
 
@@ -77,7 +71,6 @@ Here are some of the most useful commands:
 | `npm run audit`          | Audit dependencies for security vulnerabilities.|
 | `npm run prettier`       | Format the entire project with Prettier.        |
 
----
 
 ## Why You'll Love This Project ❤️
 
@@ -86,7 +79,6 @@ Here are some of the most useful commands:
 - **Scalable**: Perfect for small projects or large enterprise applications.  
 - **Community-Driven**: Regularly updated and maintained by the community.
 
----
 
 ## Show Your Support ⭐
 
@@ -94,18 +86,15 @@ If this project helps you, please give it a **star** on GitHub! Your support mot
 
 [![GitHub Stars](https://img.shields.io/github/stars/wlucha/angular-starter?style=social)](https://github.com/wlucha/angular-starter)
 
----
 
 ## License 📄
 
 This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it as you see fit.
 
----
 
 ## Contributors ✨
 
 A big thanks to all the contributors who have helped make this project better! Want to contribute? Check out the [Contribution Guidelines](CONTRIBUTING.md).
 
----
 
 **Ready to build something amazing?** Clone this repo and start coding today! 🚀
