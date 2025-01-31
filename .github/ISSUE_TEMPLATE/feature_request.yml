@@ -1,0 +1,14 @@
+name: Feature Request  
+description: Suggest a new feature for this project  
+labels: ["feature request"]  
+body:  
+  - type: textarea  
+    attributes:  
+      label: "Describe your idea"  
+      description: "What should the feature do? Why is it useful?"  
+    validations:  
+      required: true  
+  - type: textarea  
+    attributes:  
+      label: "Alternatives/Suggestions"  
+      description: "Are there workarounds or examples from other projects?"  
