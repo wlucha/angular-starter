@@ -1,104 +1,111 @@
-![81993396-d5142b00-9645-11ea-995f-98342b7d5c8f](https://user-images.githubusercontent.com/7531596/128626297-df86020b-1cdc-43b5-a692-6c4c45534ec1.png)
+![Angular Starter Banner](https://user-images.githubusercontent.com/7531596/128626297-df86020b-1cdc-43b5-a692-6c4c45534ec1.png)
 
-> The Angular starter / boilerplate project to start a new enterprise project.
+**Kickstart your next enterprise-grade Angular project with this robust, feature-rich starter template.**  
+Designed to save you time and effort, this boilerplate provides everything you need to build scalable, maintainable, and high-quality Angular applications.
 
-✅ [Angular 19](https://angular.dev/)  
-✅ [Angular Material](https://material.angular.io/)  
-✅ Unit Testing with [Jest](https://jestjs.io/)  
-✅ End-to-End Testing with [Cypress](https://www.cypress.io/)  
-✅ Internationalization with [Transloco](https://github.com/jsverse/transloco)  
-✅ Auto documentation with [Compodoc](https://compodoc.app/)  
-✅ Provide component examples with [Storybook](https://storybook.js.org/)  
-✅ Analyse your project with [source-map-explorer](https://www.npmjs.com/package/source-map-explorer)  
-✅ [Docker](https://www.docker.com/)  
-✅ [ESLint](https://eslint.org/)  
-✅ [Prettier](https://prettier.io/)  
-✅ [Commit Linting](https://github.com/conventional-changelog/commitlint)  
-✅ [AuditJS](https://www.npmjs.com/package/auditjs) Audit this application using Sonatype OSS Index  
-✅ Auto-generate a CHANGELOG with [auto-changelog](https://github.com/cookpete/auto-changelog)
+---
 
-<hr>
+## Why Choose This Starter? 🌟
 
-![Angular19](https://img.shields.io/badge/Angular-19-brightgreen)
-[![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=wlucha_angular-starter&metric=alert_status)](https://sonarcloud.io/dashboard?id=wlucha_angular-starter)
-[![Docker Pulls](https://img.shields.io/docker/pulls/wlucha/angular-starter)](https://hub.docker.com/repository/docker/wlucha/angular-starter)
-[![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wlucha/angular-starter)](https://hub.docker.com/repository/docker/wlucha/angular-starter)
-[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/wlucha/angular-starter)
+This project is more than just a boilerplate – it's a **production-ready foundation** packed with modern tools and best practices. Whether you're building a small app or a large-scale enterprise solution, this starter has you covered.
 
-## Deploy
+---
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+## Features 🛠️
 
-## Demo
+✅ **Latest Angular 19** – Stay up-to-date with the newest Angular features.  
+✅ **Angular Material** – Build beautiful, responsive UIs with Material Design.  
+✅ **Unit Testing with Jest** – Fast and reliable testing for your components.  
+✅ **End-to-End Testing with Cypress** – Ensure your app works flawlessly from start to finish.  
+✅ **Internationalization with Transloco** – Easily support multiple languages.  
+✅ **Auto Documentation with Compodoc** – Keep your codebase well-documented.  
+✅ **Component Examples with Storybook** – Showcase and test your components in isolation.  
+✅ **Bundle Analysis with Source Map Explorer** – Optimize your app's performance.  
+✅ **Docker Support** – Simplify deployment and containerization.  
+✅ **Code Quality Tools** – ESLint, Prettier, and Commit Linting for clean, consistent code.  
+✅ **Security Audits with AuditJS** – Keep your dependencies secure.  
+✅ **Auto-Generated CHANGELOG** – Track changes effortlessly with `auto-changelog`.
 
-[![StackBlitz Demo](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/wlucha/angular-starter)
+---
 
-## Install / Development
+## Quick Start 🚀
+
+### Installation
 
 ```bash
-# Clone the project
-$ git clone https://github.com/wlucha/angular-starter
-$ cd angular-starter
+# Clone the repository
+git clone https://github.com/wlucha/angular-starter
+cd angular-starter
 
 # Install dependencies
-$ npm install
+npm install
 
-# Start server
-$ npm run start
+# Start the development server
+npm run start
 
-# Open in browser: http://localhost:4200
+# Open your browser at http://localhost:4200
 ```
 
-## Docker Deployment
-
+### Docker Deployment
 ```bash
-# Build Docker image
-$ docker build . -t angular-starter
+# Build the Docker image
+docker build . -t angular-starter
 
-# Run Docker Container
-$ docker run -p 3000:80 angular-starter
+# Run the Docker container
+docker run -p 3000:80 angular-starter
 ```
 
-## Docker Hub
+## Demo & Deployment 🖥️
 
-https://hub.docker.com/r/wlucha/angular-starter
+- **Live Demo**: [Check it out on StackBlitz](https://stackblitz.com/github/wlucha/angular-starter)  
+- **Deploy to Heroku**: [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Commands
+---
 
-- `npm run start` - Start the app
-- `npm run lint` - Lint the project
-- `npm run test` - Run unit tests
-- `npm run build` - Build the project
-- `npm run build:prod` - Build the project in production mode
-- `npm run build:prod:stats` - Build the project in product mode with stats
-- `npm run analyse` - Analyse bundle with [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
-- `npm run compodoc` - Generate [compodoc](https://github.com/compodoc/compodoc) documentation
-- `npm run version` - Generate changelog
-- `npm run prettier` - Format the whole project
-- `npm run audit` - Audit this application using Sonatype OSS Index
-- `npm run storybook` - Run Storybook
+## Commands Overview 📜
 
-## License
+Here are some of the most useful commands:
 
-MIT License
+| Command                  | Description                                      |
+|--------------------------|--------------------------------------------------|
+| `npm run start`          | Start the development server.                   |
+| `npm run lint`           | Lint the project for code quality.              |
+| `npm run test`           | Run unit tests with Jest.                       |
+| `npm run build`          | Build the project for production.               |
+| `npm run compodoc`       | Generate documentation with Compodoc.           |
+| `npm run storybook`      | Launch Storybook for component examples.        |
+| `npm run audit`          | Audit dependencies for security vulnerabilities.|
+| `npm run prettier`       | Format the entire project with Prettier.        |
 
-Copyright (c) 2025 Wilfried Lucha
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Why You'll Love This Project ❤️
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- **Time-Saving**: Skip the setup and focus on building your app.  
+- **Best Practices**: Built with industry standards in mind.  
+- **Scalable**: Perfect for small projects or large enterprise applications.  
+- **Community-Driven**: Regularly updated and maintained by the community.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+---
+
+## Show Your Support ⭐
+
+If this project helps you, please give it a **star** on GitHub! Your support motivates us to keep improving and adding new features.
+
+[![GitHub Stars](https://img.shields.io/github/stars/wlucha/angular-starter?style=social)](https://github.com/wlucha/angular-starter)
+
+---
+
+## License 📄
+
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute it as you see fit.
+
+---
+
+## Contributors ✨
+
+A big thanks to all the contributors who have helped make this project better! Want to contribute? Check out the [Contribution Guidelines](CONTRIBUTING.md).
+
+---
+
+**Ready to build something amazing?** Clone this repo and start coding today! 🚀
