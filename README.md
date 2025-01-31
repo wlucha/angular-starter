@@ -79,6 +79,12 @@ Here are some of the most useful commands:
 - **Scalable**: Perfect for small projects or large enterprise applications.  
 - **Community-Driven**: Regularly updated and maintained by the community.
 
+## Feature Requests & Feedback 💡
+
+**We love ideas!** 🚀  
+If you have a feature request or improvement suggestion:  
+- Open a [new issue](https://github.com/wlucha/angular-starter/issues) with the `feature request` label.  
+- Describe your idea clearly and provide context (e.g., _"Why is this feature useful?"_).  
 
 ## Show Your Support ⭐
 
