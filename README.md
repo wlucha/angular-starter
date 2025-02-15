@@ -20,7 +20,7 @@ This project is more than just a boilerplate – it's a **production-ready found
 ✅ **Docker Support** – Simplify deployment and containerization.  
 ✅ **Code Quality Tools** – ESLint, Prettier, and Commit Linting for clean, consistent code.  
 ✅ **Security Audits with AuditJS** – Keep your dependencies secure.  
-✅ **Auto-Generated CHANGELOG** – Track changes effortlessly with auto-changelog.
+✅ **Auto-Generated CHANGELOG** – Track changes effortlessly with auto-changelog.  
 ✅ **Tailwind CSS Integration** – Utilize a utility-first CSS framework to create sleek, responsive designs efficiently.
 
 
