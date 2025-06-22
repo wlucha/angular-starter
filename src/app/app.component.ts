@@ -9,5 +9,5 @@ import { TranslocoRootModule } from './transloco-root.module';
     styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Angular Starter!';
+  title = 'Geo visualizer';
 }
