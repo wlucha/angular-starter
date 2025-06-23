@@ -1,0 +1,12 @@
+<nav class="menu-container">
+  <div class="hamburger" (click)="toggleMenu()">☰</div>
+  <ul *ngIf="menuOpen" class="menu-items">
+    <li><a routerLink="/dashboard">Dashboard</a></li>
+    <li><a routerLink="/reports">Reports</a></li>
+    <li><a routerLink="/settings">Settings</a></li>
+    <li><a routerLink="/profile">Profile</a></li>
+  </ul>
+  <div class="user-name">
+    Welcome, {{ username$ | async }}
+  </div>
+</nav>

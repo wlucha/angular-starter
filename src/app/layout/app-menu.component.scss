@@ -1,0 +1,34 @@
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004d4d;
+  color: #fff;
+  padding: 1rem;
+
+  .hamburger {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .menu-items {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+
+    li a {
+      color: #fff;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .user-name {
+    margin-left: auto;
+    padding-left: 1rem;
+  }
+}
