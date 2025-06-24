@@ -5,12 +5,13 @@ import { Observable } from 'rxjs';
 import { AuthState } from 'src/app/auth/state/auth.state';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { AppMenuComponent } from "../../layout/app-menu.component";
+import { CalendarComponent } from 'src/app/shared/components/calendar/calendar.component';
 
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   standalone: true,
-  imports: [CommonModule, SharedModule, AppMenuComponent],
+  imports: [CommonModule, SharedModule, AppMenuComponent, CalendarComponent],
   styleUrls: ['./dashboard.component.scss']
 })
 export class DashboardComponent {

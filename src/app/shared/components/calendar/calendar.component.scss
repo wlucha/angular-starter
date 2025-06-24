@@ -1,0 +1,44 @@
+.calendar {
+  max-width: 350px;
+  margin: auto;
+  font-family: sans-serif;
+
+  .calendar-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .calendar-weekdays,
+  .calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+  }
+
+  .weekday {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .day {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #f3f3f3;
+
+    &.empty {
+      background: transparent;
+      cursor: default;
+    }
+
+    &.selected {
+      background-color: #42a5f5;
+      color: white;
+    }
+  }
+}
+

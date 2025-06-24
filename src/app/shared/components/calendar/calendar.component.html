@@ -1,0 +1,27 @@
+<div class="calendar">
+  <div class="calendar-controls">
+    <select [value]="currentMonth" (change)="onMonthChange($event.target.value)">
+      <option *ngFor="let month of months; index as i" [value]="i">{{ month }}</option>
+    </select>
+
+    <select [value]="currentYear" (change)="onYearChange($event.target.value)">
+      <option *ngFor="let year of years" [value]="year">{{ year }}</option>
+    </select>
+  </div>
+
+  <div class="calendar-weekdays">
+    <div *ngFor="let day of weekdays" class="weekday">{{ day }}</div>
+  </div>
+
+  <div class="calendar-days">
+    <div
+      *ngFor="let day of days"
+      class="day"
+      [class.empty]="!day"
+      [class.selected]="isSelected(day)"
+      (click)="selectDate(day)"
+    >
+      {{ day?.getDate() }}
+    </div>
+  </div>
+</div>
