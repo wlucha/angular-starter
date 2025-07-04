@@ -8,10 +8,13 @@
     "experimentalDecorators": true,
     "esModuleInterop": true,
     "module": "es2020",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
-    "lib": ["es2020", "dom"],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
     "useDefineForClassFields": false
   },
   "angularCompilerOptions": {

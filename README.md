@@ -34,7 +34,7 @@ git clone https://github.com/wlucha/angular-starter
 cd angular-starter
 
 # Install dependencies
-npm install
+npm install --force
 
 # Start the development server
 npm run start
