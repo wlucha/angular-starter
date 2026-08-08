@@ -5,7 +5,7 @@
   <a href="https://github.com/wlucha/angular-starter/stargazers"><img src="https://img.shields.io/github/stars/wlucha/angular-starter?style=social" alt="Stars"></a>
 </p>
 
-<p align="center"><strong>A production-ready Angular 21 starter template with modern tooling, testing, and best practices baked in.</strong></p>
+<p align="center"><strong>A production-ready Angular 22 starter template with modern tooling, testing, and best practices baked in.</strong></p>
 
 ---
 
@@ -13,10 +13,10 @@
 
 | Category | Tool | Description |
 |----------|------|-------------|
-| **Framework** | Angular 21 | Latest Angular with signals, standalone components & new control flow |
+| **Framework** | Angular 22 | Latest Angular with signals, standalone components & new control flow |
 | **UI** | Angular Material | Material Design component library |
 | **Styling** | Tailwind CSS 4 | Utility-first CSS framework |
-| **Unit Testing** | Jest 30 | Fast, reliable unit tests with `jest-preset-angular` |
+| **Unit Testing** | Jest 30 | Fast, reliable unit tests with `jest-preset-angular` 17 |
 | **E2E Testing** | Playwright | Cross-browser E2E tests (Chromium, Firefox, WebKit) |
 | **Linting** | ESLint 10 | Static analysis with Angular & TypeScript rules |
 | **Formatting** | Prettier | Consistent code formatting |
